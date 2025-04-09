@@ -8,6 +8,8 @@
             Console.WriteLine("Come ti chiami?");
             var nome = Console.ReadLine();
             Console.WriteLine($"Ciao, {nome}!");
+
+            Console.WriteLine($"Io mi chiamo {Environment.MachineName}");
         }
     }
 }
